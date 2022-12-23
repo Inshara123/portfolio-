@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:orangered;
+}
+/* ////////////////////////////aside////////////////////// */
+.aside{
+    width: 25%;
+    position: fixed;
+    background-color: #222222;
+    height: 100%;
+}
+.aside .logo{
+    margin: 30px 60px;
+    height: 100px;
+}
+
+
+.aside nav{
+    margin: 90px 76px;
+
+
+}
+.aside nav ul{
+    list-style-type: none;
+   
+}
+.aside nav ul li{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #424949;
+}
+.aside nav ul li a{
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.aside nav ul li a:active{
+    color: var(--main-color);
+}
+.aside nav ul li a:hover{
+    color: var(--main-color);
+}
+i{
+    margin-right: 10px;
+    color:white
+}
+/* //////////////////////////////main container///////////////////// */
+.main-container{
+    background-color:#151515 ;
+    height: 100vh;
+    width: 100%;
+}
+.main-container h1{
+    margin-left: 282px;
+    color: white;
+    padding-top: 180px;
+    font-family: poppins;
+}
+.main-container h1 span{
+    color: var(--main-color);
+    font-family: dancing script;
+    padding-left: 11px;
+    font-size: 41px;
+}
+.main-container h2{
+    margin-left: 282px;
+    color: white;
+    padding-top: 18px;
+    font-family: poppins;  
+}
+.main-container h2 .auto-type{
+    color: var(--main-color);
+    padding-left: 6px;
+    word-spacing: 7px;
+}
+.main-container p{
+    margin-left: 282px;
+    color: white;
+    padding-top: 18px;
+    width: 400px;
+    font-family: poppins;
+}
+.main-container button{
+    margin-left: 282px;
+    height: 40px;
+    width: 150px;
+    border-radius: 26px;
+    margin-top: 41px;
+    background-color: var(--main-color);
+}
+.main-container button a{
+    text-decoration: none;
+    font-family: poppins;
+    color: white;
+ 
+    font-size: 15px;
+}
+.main-container img{
+    height: 281px;
+    margin-top: -142px;
+    margin-left: 550px;
+}
+@media (min-width: 1366px) {
+    .aside{
+       width: 22%;
+    }
+    .aside .logo {
+        margin: 46px 95px;
+    }
+    .aside nav ul li a{
+        font-size: 22px;
+    }
+}
+/* @media screen and (max-width:500px) {
+    .aside nav ul li a{
+        font-size: 15px;
+    }
+    
+.aside nav{
+    margin: 140px 76px;
+
+
+}
+} */
+@media screen and (min-width:500px) {
+    .main-container h1 {
+        margin-left: 30px;
+        display: block;
+        color: white;
+        font-size: 19px;
+        padding-top: 91px;
+        font-family: poppins;
+    }
+    .main-container h2 {
+        margin-left: 32px;
+        color: white;
+        padding-top: 18px;
+        font-family: poppins;
+    }
+    }
+
